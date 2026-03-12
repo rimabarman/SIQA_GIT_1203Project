@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
+<INVOKE NAME="JMSTest" SERVICE="publisher:publisher">
   <COMMENT></COMMENT>
-</SEQUENCE>
+</INVOKE>
 </FLOW>
